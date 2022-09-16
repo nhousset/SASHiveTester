@@ -9,7 +9,7 @@ then
 fi
 for i in 1 2 3 4 5 6 7 8 9 10
 do
-echo "RUN ========================= "$1
+echo "RUN ========================= "$i
 time $HIVE_HOME/bin/beeline -u $URL --incremental=true -n $USER -p $PASS<<EOF
 show databases;
 use in_usage_nacsel_expo_dt;
@@ -17,5 +17,5 @@ show tables;
 !q
 EOF
 
-echo "FIN RUN ==============================="
+echo "FIN RUN =============================== "$i
 done
