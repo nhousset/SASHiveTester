@@ -15,7 +15,7 @@ do
 echo "RUN ========================= "$i
 time $HIVE_HOME/bin/beeline -u $URL --incremental=true -n $USER -p $PASS<<EOF
 show databases;
-use in_usage_nacsel_expo_dt;
+use in_usage_nacsel_expo_dtm;
 show tables;
 !q
 EOF
