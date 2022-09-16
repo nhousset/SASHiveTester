@@ -22,6 +22,17 @@ then
 fi 
 export PATH=$PATH:$HADOOP_HOME
 
+
+echo -en "\n\n"
+echo "   _____          _____   _    _ _             _______        _            "
+echo "  / ____|  /\    / ____| | |  | (_)           |__   __|      | |           "
+echo " | (___   /  \  | (___   | |__| |___   _____     | | ___  ___| |_ ___ _ __ "
+echo "  \___ \ / /\ \  \___ \  |  __  | \ \ / / _ \    | |/ _ \/ __| __/ _ \ '__|"
+echo "  ____) / ____ \ ____) | | |  | | |\ V /  __/    | |  __/\__ \ ||  __/ |   "
+echo " |_____/_/    \_\_____/  |_|  |_|_| \_/ \___|    |_|\___||___/\__\___|_|   "
+echo -en "\n\n"   
+
+
 echo -en "\n\n"
 echo -en "JAVA_HOME :${GREEN}$JAVA_HOME${NC}\n"
 echo -en "HADOOP_HOME :${GREEN}$HADOOP_HOME${NC}\n"
@@ -30,4 +41,5 @@ echo -en "\n\n"
 echo -en "BEELINE CMD :${GREEN} $HIVE_HOME/bin/beeline --incremental=true ${NC}\n"
 echo -en "\n\n"
 
-
+                                                                       
+                                                                           
