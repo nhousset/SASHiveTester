@@ -1,6 +1,8 @@
 logfile=/tmp/$$.log
 exec > $logfile 2>&1
 
+source config.sh
+
 URL=$1
 USER=$2
 PASS=$3
@@ -15,7 +17,6 @@ do
 echo "RUN ========================= "$i
 time $HIVE_HOME/bin/beeline -u $URL --incremental=true -n $USER -p $PASS &<<EOF
 show databases;
-use in_usage_nacsel_expo_dtm;
 show tables;
 !q
 EOF
