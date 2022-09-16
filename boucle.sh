@@ -15,7 +15,7 @@ show databases;
 use in_usage_nacsel_expo_dt;
 show tables;
 !q
-EOF
+EOF &
 
 echo "FIN RUN =============================== "$i
 done
