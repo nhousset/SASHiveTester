@@ -4,7 +4,7 @@ PASS=$
 
 if [ ! "$1" ]
 then
- echo $0 <URL JDBC> <USER> <PASSWORD>
+ echo $0 "<URL JDBC> <USER> <PASSWORD>"
   exit 1;
 fi
 for i in 1 2 3 4 5 6 7 8 9 10
