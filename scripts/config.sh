@@ -33,7 +33,7 @@ echo "  ____) / ____ \ ____) | | |  | | |\ V /  __/    | |  __/\__ \ ||  __/ |  
 echo " |_____/_/    \_\_____/  |_|  |_|_| \_/ \___|    |_|\___||___/\__\___|_|   "
 echo -en "${NC}\n"
 echo -en "${YELLOW}"
-echo "  ⚡ https://github.com/nhousset/SASHiveTester/ © Nicolas Housset"
+echo "  https://github.com/nhousset/SASHiveTester/ (c) Nicolas Housset"
 echo -en "${NC}\n" 
 
 
