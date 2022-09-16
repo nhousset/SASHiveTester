@@ -1,6 +1,6 @@
 URL=$1
 USER=$2
-PASS=$
+PASS=$3
 
 if [ ! "$1" ]
 then
