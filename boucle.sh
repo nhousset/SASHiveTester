@@ -1,0 +1,16 @@
+URL=$1
+USER=$2
+PASS=$
+
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+echo "RUN ========================= "$1
+time $HIVE_HOME/bin/beeline -u $URL --incremental=true -n $USER -p $PASS<<EOF
+show databases;
+use in_usage_nacsel_expo_dt;
+show tables;
+!q
+EOF
+
+echo "FIN RUN ==============================="
+done
