@@ -1,3 +1,6 @@
+logfile=/tmp/$$.log
+exec > $logfile 2>&1
+
 URL=$1
 USER=$2
 PASS=$3
