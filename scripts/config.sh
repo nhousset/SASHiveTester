@@ -27,7 +27,7 @@ echo -en "JAVA_HOME :${GREEN}$JAVA_HOME${NC}\n"
 echo -en "HADOOP_HOME :${GREEN}$HADOOP_HOME${NC}\n"
 echo -en "HIVE_HOME :${GREEN}$HIVE_HOME${NC}\n"
 echo -en "\n\n"
-echo -en "VIYA_VERSION :${GREEN} $HIVE_HOME/bin/beeline --incremental=true ${NC}\n"
+echo -en "BEELINE CMD :${GREEN} $HIVE_HOME/bin/beeline --incremental=true ${NC}\n"
 echo -en "\n\n"
 
 
