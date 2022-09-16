@@ -24,15 +24,17 @@ export PATH=$PATH:$HADOOP_HOME
 
 
 echo -en "\n\n"
+echo -en "${RED}"
 echo "   _____          _____   _    _ _             _______        _            "
 echo "  / ____|  /\    / ____| | |  | (_)           |__   __|      | |           "
 echo " | (___   /  \  | (___   | |__| |___   _____     | | ___  ___| |_ ___ _ __ "
 echo "  \___ \ / /\ \  \___ \  |  __  | \ \ / / _ \    | |/ _ \/ __| __/ _ \ '__|"
 echo "  ____) / ____ \ ____) | | |  | | |\ V /  __/    | |  __/\__ \ ||  __/ |   "
 echo " |_____/_/    \_\_____/  |_|  |_|_| \_/ \___|    |_|\___||___/\__\___|_|   "
-echo ""
-echo "https://github.com/nhousset/SASHiveTester/ (c) Nicolas Housset"
-echo -en "\n\n"   
+echo -en "${NC}\n"
+echo -en "${YELLOW}"
+echo "  https://github.com/nhousset/SASHiveTester/ (c) Nicolas Housset"
+echo -en "${NC}\n" 
 
 
 echo -en "\n\n"
