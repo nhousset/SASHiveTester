@@ -13,6 +13,22 @@ cd scripts/
 ./beeline.sh
 ```
 
+## Configuration
+
+The tool uses the following environment variables: 
+
+| Variable  | Default value | Description |
+|-----------|-------------------|-------------|
+| JAVA_HOME | /usr/lib/jvm/jre-1.8.0                  | By default, on the JRE used by SAS Viya           |
+| HADOOP_HOME         | ../hadoop-dist/hadoop-2.7.3                 | hadoop distribution embedded in this project           |
+| HIVE_HOME         | ../hive/1.2.1                 | Hive jar client embedded in this project           |
+
+You can override the environment variables by exporting them before running the beeline.sh script :
+
+```
+export HADOOP_HOME=/opt/hadoop-dis/2.7.3
+```
+
 ## Example of output
 ![sashivetester_output](https://github.com/nhousset/SASHiveTester/blob/main/src/sashivetester_output.jpeg?raw=true)
 
