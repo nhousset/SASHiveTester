@@ -1,5 +1,5 @@
-[![Activity](https://img.shields.io/github/commit-activity/m/nhousset/SASHiveTester)]
-[![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https://www.nicolas-housset.fr)]
+[![Activity](https://img.shields.io/github/commit-activity/m/nhousset/SASHiveTester)](https://github.com/nhousset/SASHiveTester)
+[![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https://www.nicolas-housset.fr)](https://www.nicolas-housset.fr)
 
 # SASHiveTester
 
