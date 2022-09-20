@@ -32,3 +32,11 @@ export HADOOP_HOME=/opt/hadoop-dis/2.7.3
 ## Example of output
 ![sashivetester_output](https://github.com/nhousset/SASHiveTester/blob/main/src/sashivetester_output.jpeg?raw=true)
 
+## Directory navigation
+
+ - `hadoop-dist` contains the Hadoop distribution embedded in this project.
+ - `hive` contains the Hive jar client embedded in this project.
+ - `scripts` contains the scripts.
+ - `src` contains pictures and other stuff.
+
+
