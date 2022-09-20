@@ -40,3 +40,4 @@ export HADOOP_HOME=/opt/hadoop-dis/2.7.3
  - `src` contains pictures and other stuff.
 
 
+If you are looking for a complete tool to audit your Viya 3.5 environment, you may be interested in my project  [Micro Service Health Check VIYA 3.5]([https://wiki.batocera.org/notable_files](https://github.com/nhousset/viyaTools/blob/main/msHealthCheck.md)).
