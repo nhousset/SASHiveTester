@@ -1,4 +1,5 @@
 [![Activity](https://img.shields.io/github/commit-activity/m/nhousset/SASHiveTester)](https://github.com/nhousset/SASHiveTester)
+[![Stars](https://img.shields.io/github/stars/nhousset?style=social)](https://github.com/nhousset/SASHiveTester)
 [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https://www.nicolas-housset.fr)](https://www.nicolas-housset.fr)
 [![Twitter](https://img.shields.io/twitter/follow/nicolas_housset?style=social)](https://twitter.com/nicolas_housset)
 [![Youtube](https://img.shields.io/youtube/channel/views/UCHxbJPkSGlJxtvPVrmzjxbg?style=social)](https://www.youtube.com/channel/UCHxbJPkSGlJxtvPVrmzjxbg)
