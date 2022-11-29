@@ -20,6 +20,6 @@
 ##################################################################################################################
 
 export SASJAVA=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.342.b07-1.el7_9.x86_64/jre/bin/java
-export CLASSPATH=.:/opt/sas/Hadoop_DEV/jars/*:/opt/sas/Hadoop_DEV/sitexmls:
+export CLASSPATH=.:/opt/sas/Hadoop/jars/*:/opt/sas/Hadoop/sitexmls:
 
 $SASJAVA HDFSCheck $1 $2 HDFS HDFSCheck.txt
