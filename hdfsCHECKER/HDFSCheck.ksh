@@ -5,13 +5,6 @@
 #                                                                                                                #
 # Requirements:                                                                                                  #
 #                                                                                                                #
-# Set the SASJAVA environment variable to <java home>/java, with <java home> being the name of the folder where  #
-# the java executable that ships with SAS is located. Alternatively, you can set this variable to the location   #
-# of a java executable whose version is compatible with the SAS software being installed.                        #
-# Pleae check the install guide/s or contact SAS Tech Support for more information.                              #
-#                                                                                                                #
-# Set the CLASSPATH environment variable to point to the folder where the Hadoop client jars are stored, as well #
-# as to the one where the Hadoop configuration files are located.                                                #
 #                                                                                                                #
 # Execution:                                                                                                     #
 #                                                                                                                #
@@ -27,6 +20,6 @@
 ##################################################################################################################
 
 export SASJAVA=/usr/bin/java
-export CLASSPATH=.:/opt/hadoop/hadoop_config/jars/*:/opt/hadoop/hadoop_config/sitexmls:
+export CLASSPATH=.:/opt/hadoop/Hadoop_DEV/jars/*:/opt/hadoop/Hadoop_DEV/sitexmls:
 
-$SASJAVA HDFSCheck franih-hdp261.ts.sashq-r.openstack.sas.com 8020 HDFS HDFSCheck.txt
+$SASJAVA HDFSCheck $1 $2 HDFS HDFSCheck.txt
