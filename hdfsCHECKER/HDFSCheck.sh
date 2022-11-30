@@ -3,9 +3,6 @@
 ##################################################################################################################
 # This script is a wrapper for the HDFSCheck Java program.                                                       #
 #                                                                                                                #
-# Requirements:                                                                                                  #
-#                                                                                                                #
-#                                                                                                                #
 # Execution:                                                                                                     #
 #                                                                                                                #
 # $SASJAVA HDFSCheck <HDFS server> <HDFS service port number> <HDFS | MAPRFS> <local file name to write to HDFS> #
@@ -22,4 +19,4 @@
 export SASJAVA=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.342.b07-1.el7_9.x86_64/jre/bin/java
 export CLASSPATH=.:/opt/sas/Hadoop/jars/*:/opt/sas/Hadoop/sitexmls:
 
-$SASJAVA HDFSCheck $1 $2 HDFS HDFSCheck.txt
+$SASJAVA HDFSCheck $1 $2 HDFS HDFSCheck.txt DEBUG
