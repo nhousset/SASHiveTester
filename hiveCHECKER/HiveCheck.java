@@ -197,7 +197,7 @@ public class HiveCheck
                 if (args[0].equalsIgnoreCase("SIMPLE"))
                    connection_string = "jdbc:hive2://" + args[1] + ":" + args[2] + "/default";
                 else if (args[0].equalsIgnoreCase("KERBEROS"))
-                        connection_string = "jdbc:hive2://" + args[1] + ":" + args[2] + "/default;principal=" + args[3];
+                        connection_string = "jdbc:hive2://" + args[1] + ":" + args[2] + "/default;principal=" + args[3] + "ssl=true;sslTrustStore=/opt/sas/certificat/client.truststore.jks;trustStorePassword=changeit;transportMode=http;httpPath=/gateway/cdp-proxy-api/hive;tez.queue.name=re-synaps";
                      else if (args[0].equalsIgnoreCase("LDAP"))
                              connection_string = "jdbc:hive2://" + args[1] + ":" + args[2] + "/default;user=" + args[3] + ";password=" + args[4];
 
