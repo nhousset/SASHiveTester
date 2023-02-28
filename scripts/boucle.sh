@@ -1,7 +1,7 @@
 logfile=/tmp/$$.log
 exec > $logfile 2>&1
 
-source config.sh
+source ./config.sh
 
 URL=$1
 USER=$2
